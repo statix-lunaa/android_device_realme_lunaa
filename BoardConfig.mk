@@ -31,11 +31,5 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
 SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/public
 
-# Touch
-SOONG_CONFIG_NAMESPACES += OPLUS_LINEAGE_TOUCH_HAL
-SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL := INCLUDE_DIR
-SOONG_CONFIG_OPLUS_LINEAGE_TOUCH_HAL_INCLUDE_DIR := \
-    $(DEVICE_PATH)/touch/include
-
 # Include the proprietary files BoardConfig.
 include vendor/realme/lunaa/BoardConfigVendor.mk
