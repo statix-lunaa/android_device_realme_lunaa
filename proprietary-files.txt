@@ -914,6 +914,10 @@ odm/etc/nfc/libnfc-st21h_conf.txt_21675:vendor/firmware/libnfc-st21h_conf.txt
 odm/etc/nfc/st21nfc_fw.bin_st21h:vendor/firmware/st21nfc_fw.bin
 odm/etc/nfc/st21nfc_fw7.bin_st21h:vendor/firmware/st21nfc_fw7.bin
 
+# Performance
+odm/lib/vendor.oplus.hardware.performance@1.0.so
+odm/lib64/vendor.oplus.hardware.performance@1.0.so
+
 # Sensors
 odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service
 odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc
